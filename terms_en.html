@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>NumFix</title>
+  <style>
+    :root{
+      --bg:#0A0A0A; --card:#141414; --border:#2A2A2A; --text:#FFFFFF;
+      --muted:#C9C9C9; --accent:#00B4D8;
+    }
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:var(--bg);color:var(--text);}
+    .wrap{max-width:900px;margin:0 auto;padding:28px 18px 48px;}
+    .top{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:12px}
+    h1{margin:0;font-size:20px}
+    a{color:var(--accent);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .card{background:linear-gradient(180deg,#141414 0%,#101010 100%);border:1px solid var(--border);border-radius:16px;padding:18px 16px;margin:12px 0;}
+    h2{margin:16px 0 8px;font-size:14px;color:var(--accent);letter-spacing:.08em}
+    p,li{color:var(--muted);line-height:1.7}
+    ul{margin:8px 0 0 18px}
+    .small{font-size:12px;color:var(--muted)}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="top">
+      <h1>NumFix Terms of Service</h1>
+      <div class="small"><a href="./index.html">Index</a></div>
+    </div>
+
+    <div class="card">
+      <p>
+        These Terms govern your use of the “NumFix” mobile application (“the App”).
+        By using the App, you agree to these Terms.
+      </p>
+
+      <h2>1. What the App Does</h2>
+      <p>
+        The App formats text on-device using rule-based transformations.
+        The App does not perform AI processing via external APIs.
+      </p>
+
+      <h2>2. Offline Processing & Data</h2>
+      <ul>
+        <li>The App is designed to work offline; processing is performed locally on your device.</li>
+        <li>Input text is not persistently stored and may be lost when the app is closed or terminated.</li>
+        <li>Only minimal settings (e.g., toggle states) may be stored locally on your device.</li>
+      </ul>
+
+      <h2>3. Safety Design</h2>
+      <p>
+        To reduce unintended changes, the App is designed to protect/exclude URLs and code blocks from formatting.
+        However, the App does not guarantee error-free output for all possible inputs.
+      </p>
+
+      <h2>4. Disclaimer</h2>
+      <ul>
+        <li>You are responsible for reviewing the formatted output before use.</li>
+        <li>The developer is not liable for any damages arising from your use of the App.</li>
+        <li>The App is provided “AS IS”, without warranties of any kind.</li>
+      </ul>
+
+      <h2>5. Prohibited Use</h2>
+      <ul>
+        <li>Illegal or harmful use</li>
+        <li>Reverse engineering, decompiling, modifying, or redistributing the App (except where legally permitted)</li>
+        <li>Infringing third-party rights</li>
+      </ul>
+
+      <h2>6. Changes</h2>
+      <p>
+        These Terms may be updated from time to time.
+        Continued use after changes means acceptance of the updated Terms.
+      </p>
+
+      <h2>7. Governing Law</h2>
+      <p>
+        These Terms are governed by the laws of Japan.
+      </p>
+
+      <p class="small">Last updated: 2025-12-29</p>
+    </div>
+  </div>
+</body>
+</html>
